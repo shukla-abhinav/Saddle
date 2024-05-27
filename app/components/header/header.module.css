@@ -1,0 +1,86 @@
+.header {
+    background-color: #F8F7F2;
+    height: 72px;
+    padding: 14px 0;
+    z-index: 99;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.leftHeader {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.publicMenuLinks {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 2rem;
+}
+
+.links {
+    margin: 0 20px;
+}
+
+.publicMenuLink {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--colorTextBase);
+}
+
+.rightHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+.rightHeader button {
+    font-size: 16px;
+    line-height: 20px;
+    height: 48px;
+    font-weight: 500;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.88);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #b0b0b0;
+    cursor: pointer
+}
+
+.rightHeader .loginBtn {
+    padding: 0 24px;
+}
+
+.rightHeader .signUpBtn {
+    font-weight: 700;
+    color: #fff;
+    background-color: #141414;
+    border: 1px solid #141414;
+    transition: all .6s ease-in-out;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 15px 10px;
+}
