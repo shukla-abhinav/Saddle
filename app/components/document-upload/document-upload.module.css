@@ -1,0 +1,117 @@
+.documentUpload {
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.head {
+    padding-top: 1.5rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.divider {
+    margin: 16px 0;
+    width: 100%;
+    border: 1px solid rgba(5, 5, 5, 0.06);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 2rem;
+ }
+
+.heading {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.subHeading {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #848484;
+}
+
+.label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.url {
+    display: flex;
+}
+
+.prefixDiv {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid #b0b0b0;
+    padding: 12.8px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 6px;
+    line-height: 1;
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+    border-inline-end: 0;
+}
+
+.urlInput {
+    padding: 10.8px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.17;
+    border-radius: 6px;
+    border: 1px solid #b0b0b0;
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+    font-size: 16px;
+    width: 100%;
+}
+
+.userHandle, .designation {
+    margin-top: 2rem;
+}
+
+.designation .urlInput {
+    border-start-start-radius: 6px;
+    border-end-start-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 9;
+    box-shadow: 0 -4px 4px rgba(0, 0, 0, .1);
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.footer button {
+    color: #fff;
+    background-color: #141414;
+    border: 1px solid #141414;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    height: 40px;
+    padding: 8px 15px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    width: 38%;
+}

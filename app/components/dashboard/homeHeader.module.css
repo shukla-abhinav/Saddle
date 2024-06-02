@@ -1,0 +1,66 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    border-bottom: 1px solid #e3e8ed;
+    width: 100%;
+    align-items: center;
+}
+
+.headerContainer h2 {
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.4;
+}
+
+.hederRight {
+    display: flex;
+    gap: 1rem
+}
+
+.profileLink {
+    display: flex;
+    align-items: center;
+    border-radius: 16.755px;
+    border: .698px solid #e7e0c2;
+    background: #f8f7f2;
+    padding: 8px;
+    gap: 10px
+}
+
+.profileLink img {
+    border-radius: 50%;
+}
+
+.profileText {
+    display: flex;
+    gap: 6px;
+    color: #000;
+}
+
+.profileText span {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.profileCopy {
+    border-radius: 16.755px;
+    border: .698px solid #e7e0c2;
+    background: #f8f7f2;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    padding: 0 16px !important;
+    color: #5b3600;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.linkBtn, .profileCopyIcon {
+    color: rgb(140, 83, 0);
+    height: 24px;
+    width: 24px;
+}
