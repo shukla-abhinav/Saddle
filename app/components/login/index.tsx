@@ -1,10 +1,22 @@
+"use client"
+
 import styles from "./login.module.css"
 import sIB from "../../../public/sign-in-back.svg"
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/logo.svg";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
+
+    const router  = useRouter();
+
+    // TODO - type fix
+    const onLoginSubmit = (event: any) => {
+        event.preventDefault();
+        router.push("/dashboard");
+    }
+
     return (
       <div className={styles.container}>
         <div className={styles.left}>
@@ -34,7 +46,7 @@ export default function Login() {
                         <label htmlFor="passowrd">Password</label>
                         <input name="passowrd" type="password" className={styles.passwordInp} placeholder="Password" />
                     </div>
-                    <button>Sign-in</button>
+                    <button onClick={(event) => onLoginSubmit(event)}>Sign-in</button>
                 </form>
             </div>
             <div className={styles.bottom}>

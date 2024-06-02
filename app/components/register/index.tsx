@@ -1,10 +1,21 @@
+"use client"
+
 import styles from "./register.module.css"
 import sUT from "../../../public/signup-tweet.svg"
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/logo.svg";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
+    const router  = useRouter();
+
+    // TODO - type fix
+    const onRegisterSubmit = (event: any) => {
+        event.preventDefault();
+        router.push("/document-upload");
+    }
+
     return (
         <div className={styles.register}>
             <div className={styles.left}>
@@ -45,7 +56,7 @@ export default function Login() {
                             <label htmlFor="passowrd">Password</label>
                             <input name="passowrd" type="password" placeholder="Password" />
                         </div>
-                        <button>Sign-up</button>
+                        <button onClick={(e) => onRegisterSubmit(e)}>Sign-up</button>
                     </form>
                 </div>
                 <div className={styles.bottom}>

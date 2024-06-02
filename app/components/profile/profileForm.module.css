@@ -1,0 +1,122 @@
+.profileForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    overflow-y: auto;
+    height: 300vh;
+}
+
+.profilePic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilePhoto {
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.profileForm img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.profileForm .profilePicTitle {
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.17;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profilePicText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.profileForm .profilePicSubTitle {
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.17;
+    font-size: 14px;
+}
+
+.uploadPic a {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.17;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.label {
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+}
+
+.url {
+    display: flex;
+}
+
+.prefixDiv {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid #b0b0b0;
+    padding: 12.8px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 6px;
+    line-height: 1;
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+    border-inline-end: 0;
+}
+
+.urlInput {
+    padding: 10.8px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.17;
+    border-radius: 6px;
+    border: 1px solid #b0b0b0;
+    font-size: 16px;
+    width: 100%;
+}
+
+.userHandle .urlInput {
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+}
+
+.userHandle, .displayName, .topmateIntro, .about {
+    margin-top: 2rem;
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border-radius: 22px;
+    margin-left: 8px !important;
+    cursor: pointer;
+}
+
+.userName {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userName .firstName, .userName .lastName { 
+    width: 49%;
+}
